@@ -1,3 +1,5 @@
-const div = document.getElementById('age');
+const div = document.getElementById("age");
 
-div.textContent = `${(new Date(Date.now()).getFullYear() - new Date(1064120400000).getFullYear())}`; // calculate age
+div.textContent = `${
+  new Date(Date.now()).getFullYear() - new Date(1064120400000).getFullYear()
+}`; // calculate age
