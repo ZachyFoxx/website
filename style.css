@@ -160,6 +160,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 5%;
+  gap: 2%;
   padding-top: 5rem;
 }
