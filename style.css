@@ -23,7 +23,7 @@ h3 {
 }
 
 td {
-  padding-left: 6rem;
+  padding-left: 15rem;
   padding-bottom: 1.5rem;
   text-align: right;
 }
@@ -35,6 +35,7 @@ th {
 }
 
 p {
+  font-size: 14px;
   text-indent: 2rem;
   inline-size: 400px;
   overflow-wrap: break-word;
@@ -73,12 +74,15 @@ img {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.075em;
+  padding-left: 5rem;
+  width: 275px;
   color: #949494;
 }
 
 .projects {
   display: flex;
-  gap: 5rem;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .project {
