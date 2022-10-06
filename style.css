@@ -114,6 +114,15 @@ button:hover {
   background: #ababab;
 }
 
+i {
+  transition: transform 0.2s;
+}
+
+i:hover {
+  transform: translateY(-5px) scale(1.1);
+  filter: invert(40%);
+}
+
 .card {
   font-style: normal;
   font-size: 12px;
@@ -140,6 +149,12 @@ button:hover {
   background-color: rgba(162, 162, 193, 0.25);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+  transition: transform 0.25s;
+
+}
+
+.project:hover {
+  transform: scale(1.033);
 }
 
 .warning {
@@ -157,6 +172,11 @@ button:hover {
   background-color: rgba(17, 25, 40, 0.75);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+  transition: transform 0.25s;
+}
+
+.box:hover {
+  transform: scale(1.01);
 }
 
 .header {
