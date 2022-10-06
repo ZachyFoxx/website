@@ -7,7 +7,10 @@
     <meta property="og:title" content="Zachy.DEV" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://zachy.dev" />
-    <meta property="og:image" content="https://media.discordapp.net/attachments/551891568253206529/1027440967546048573/unknown.png" />
+    <meta
+      property="og:image"
+      content="https://media.discordapp.net/attachments/551891568253206529/1027440967546048573/unknown.png"
+    />
     <meta
       property="og:description"
       content="Backend Developer and Aspiring EMT -- (he/they)"
@@ -18,10 +21,39 @@
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
   </head>
   <body>
+    <div class="modal-container" id="modal-container"></div>
+    <div id="info-modal" class="modal">
+      <div class="modal-content">
+        <table>
+          <tr>
+            <th style="width: 40%;">Build Info</th>
+            <td style="padding-left: 0rem" id="modal-build">
+              Please enable JavaScript!
+            </td>
+          </tr>
+          <tr>
+            <th style="width: 40%;">User Agent</th>
+            <td style="padding-left: 0rem" id="modal-useragent">
+              Please enable JavaScript!
+            </td>
+          </tr>
+          <tr>
+            <th style="width: 40%;">Local Time</th>
+            <td style="padding-left: 0rem" id="modal-time">
+              Please enable JavaScript!
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
     <div class="header">
       <h1 style="color: black">
         ZACHERY
@@ -77,6 +109,26 @@
           would need to know about me!
         </p>
         <a href="#not-implemented"><button>View Resume Page</button></a>
+        <p
+          style="
+            text-align: center;
+            margin-top: 4rem;
+            font-style: italic;
+            font-size: 12px;
+          "
+        >
+          <a href="#" style="color: #bbb" id="info-button"
+            >Website made with 💙</a
+          >
+          -- Powered by
+          <a href="https://pages.cloudflare.com/"
+            ><i class="fa-brands fa-cloudflare" style="font-size: 16px"></i
+          ></a>
+          and
+          <a href="https://github.com/ZachyFoxx/zachy.dev"
+            ><i class="fa-brands fa-github" style="font-size: 16px"></i
+          ></a>
+        </p>
       </div>
 
       <div class="box">
@@ -238,6 +290,7 @@
         </div>
       </div>
     </div>
+
     <script src="index.js"></script>
   </body>
 </html>
