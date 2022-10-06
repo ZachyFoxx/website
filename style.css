@@ -6,7 +6,7 @@ html {
   background-position: center;
   background-size: cover;
   box-shadow: inset 0 0 100px black;
-  padding-bottom: 2.6rem;
+  padding-bottom: 2.9rem;
 }
 
 h1 {
@@ -124,7 +124,7 @@ button:hover {
 
 .projects {
   display: flex;
-  height: 50vh;
+  height: 55vh;
   flex-direction: column;
   gap: 1.25rem;
   overflow: auto;
