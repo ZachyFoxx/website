@@ -114,6 +114,15 @@ button:hover {
   background: #ababab;
 }
 
+i {
+  transition: transform 0.2s;
+}
+
+i:hover {
+  transform: translateY(-5px) scale(1.1);
+  filter: invert(40%);
+}
+
 .card {
   font-style: normal;
   font-size: 12px;
