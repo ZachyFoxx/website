@@ -6,7 +6,7 @@ html {
   background-position: center;
   background-size: cover;
   box-shadow: inset 0 0 100px black;
-  padding-bottom: 2.7em;
+  padding-bottom: 2.35em;
 }
 
 h1 {
@@ -51,23 +51,19 @@ p {
   text-align: left;
 }
 
-/* unvisited link */
 a:link {
   color: #5798fb;
   text-decoration: none;
 }
 
-/* visited link */
 a:visited {
   color: #5798fb;
 }
 
-/* mouse over link */
 a:hover {
   color: #5798fb;
 }
 
-/* selected link */
 a:active {
   color: #5798fb;
 }
@@ -102,6 +98,22 @@ button:hover {
   cursor: pointer;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0); 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8b8b8b; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ababab; 
+}
+
 .card {
   font-style: normal;
   font-size: 12px;
@@ -112,8 +124,11 @@ button:hover {
 
 .projects {
   display: flex;
+  height: 50vh;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.25rem;
+  overflow: auto;
+  padding: 10px;
 }
 
 .project {
